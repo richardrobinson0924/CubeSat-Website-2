@@ -353,12 +353,14 @@ img::-moz-selection {
   }
 
 .main-root{
-    padding-top:200px;
+    padding-top:200px;    
 }
 .main-img{
     display:inline-block;
 }
 .main-hello{
+    padding-left: 20px;
+    vertical-align: top;
     display:inline-block;
 }
 
@@ -443,6 +445,12 @@ img::-moz-selection {
     color:#8C8B8B;
     font-family: raleway,sans-serif;
 }
+.main-hello-needs{
+  margin-top: 32px;
+  text-align:left;
+  color:#8C8B8B;
+  font-family: raleway,sans-serif;
+}
 
 .font_3 {
     font-size:72px;
@@ -454,7 +462,17 @@ img::-moz-selection {
     margin-bottom:20px;
     font-weight:bolder;
 }
-
+.font_5 {
+  font-size:24px;
+  margin-bottom:1px;
+  font-weight:bolder;
+}
+.font_6 {
+  font-size:24px;
+  margin-bottom:20px;
+  font-weight:bolder;
+  color: orange;
+}
 
 @media(max-width: 992px){
   .card>div>p{
