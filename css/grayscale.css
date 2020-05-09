@@ -373,6 +373,7 @@ img::-moz-selection {
     height: 130px;
     min-height: 15px;
     width: 130px;
+    position: relative;
 }
 .b1[data-state~="shouldUseFlex"] .b1link,
 .b1[data-state~="shouldUseFlex"] .b1labelwrapper {
@@ -472,6 +473,12 @@ img::-moz-selection {
   margin-bottom:20px;
   font-weight:bolder;
   color: orange;
+}
+
+.about-icon {
+  position: absolute;
+  top: -15px;
+  left: -8px;
 }
 
 @media(max-width: 992px){
