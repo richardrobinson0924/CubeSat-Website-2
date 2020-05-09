@@ -1,5 +1,4 @@
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
@@ -12,18 +11,6 @@ html {
   height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  margin: 0 0 35px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
 
 p {
   font-size: 16px;
@@ -43,7 +30,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #8C8B8B;
 }
 
 a:focus, a:hover {
@@ -124,8 +111,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/planet-intro2v2.jpg") no-repeat bottom center scroll;
-  background-color: black;
+  background-color: #f8f9fa;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -335,4 +321,154 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+.card {
+  box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.5);
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  /*margin: 10px;*/
+}
+
+.card>div>p{
+  padding-bottom: 5px;
+  margin-bottom: 5px;  
+}
+
+.card>img{
+  object-fit: fill;
+  max-width: 75%;   
+  margin:auto;
+  margin-top:20px;
+  margin-bottom: 25px;
+  border-radius: 300px;
+}
+
+.sec-title{
+  margin-top: 40px;
+}
+
+.card-container{
+    margin-bottom:20px;
+  }
+
+.main-root{
+    padding-top:200px;
+}
+.main-img{
+    display:inline-block;
+}
+.main-hello{
+    display:inline-block;
+}
+
+.b1 button.b1link {
+    width: 100%;
+}
+.b1 {
+    margin-right:20px;
+    display: inline-block;
+    height: 130px;
+    min-height: 15px;
+    width: 130px;
+}
+.b1[data-state~="shouldUseFlex"] .b1link,
+.b1[data-state~="shouldUseFlex"] .b1labelwrapper {
+    text-align: initial;
+    display: flex;
+    align-items: center;
+}
+.b1[data-state~="shouldUseFlex"][data-state~="center"] .b1link,
+.b1[data-state~="shouldUseFlex"][data-state~="center"] .b1labelwrapper {
+    justify-content: center;
+}
+.b1[data-state~="shouldUseFlex"][data-state~="left"] .b1link,
+.b1[data-state~="shouldUseFlex"][data-state~="left"] .b1labelwrapper {
+    justify-content: flex-start;
+}
+.b1[data-state~="shouldUseFlex"][data-state~="right"] .b1link,
+.b1[data-state~="shouldUseFlex"][data-state~="right"] .b1labelwrapper {
+    justify-content: flex-end;
+}
+.b1link {
+    display:inline-block;
+    line-height:120px;
+    background-color: transparent;
+    transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+    border-radius: 50%;
+}
+
+.b1link-about {
+    border: solid rgba(229, 125, 34, 1) 4px;
+}
+.b1link-payload {
+    border: solid rgba(242, 153, 19, 1) 4px;
+}
+.b1link-team {
+    border: solid rgba(247, 200, 14, 1) 4px;
+}
+.b1link-gallery {
+    border: solid rgba(247, 229, 14, 1) 4px;
+}
+
+.b1[data-disabled="false"] {
+    cursor: pointer !important;
+}
+.b1[data-disabled="false"]:active[data-state~="mobile"] .b1link,
+.b1[data-disabled="false"]:hover[data-state~="desktop"] .b1link,
+.b1[data-disabled="false"][data-preview~="hover"] .b1link {
+    background-color: transparent;
+    border: solid rgba(153, 83, 22, 1) -1px;
+    transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.b1[data-disabled="false"]:active[data-state~="mobile"] .b1label,
+.b1[data-disabled="false"]:hover[data-state~="desktop"] .b1label,
+.b1[data-disabled="false"][data-preview~="hover"] .b1label {
+    color: #33958f;
+    transition: color 0.4s ease 0s;
+}
+.b1[data-disabled="true"] .b1link,
+.b1[data-preview~="disabled"] .b1link {
+    background-color: rgba(204, 204, 204, 1);
+    border: solid rgba(56, 56, 56, 1) 4px;
+}
+.b1[data-disabled="true"] .b1label,
+.b1[data-preview~="disabled"] .b1label {
+    color: #ffffff;
+}
+
+.main-hello-text{
+    width:480px;
+    text-align:left;
+    color:#8C8B8B;
+    font-family: raleway,sans-serif;
+}
+
+.font_3 {
+    font-size:72px;
+    margin-bottom:20px;
+    font-weight:bolder;
+}
+.font_4 {
+    font-size:36px;
+    margin-bottom:20px;
+    font-weight:bolder;
+}
+
+
+@media(max-width: 992px){
+  .card>div>p{
+  font-size: 12px;
+  }
+
+}
+@media(max-width: 576px){
+  .card-container{
+    margin-bottom: 20px;
+    width: 60%;
+  }
+   .card>div>p{
+  
+  font-size: 12px;
+  }
 }
