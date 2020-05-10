@@ -19,54 +19,19 @@
         <!-- Custom styles for this template -->
         <link href="css/grayscale.css" rel="stylesheet" />
 
-        <style>
-            .card {
-                box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.5);
-                background-color: #f2f2f2;
-                border-radius: 15px;
-                /*margin: 10px;*/
-            }
-
-            .card > div > p {
-                padding-bottom: 5px;
-                margin-bottom: 5px;
-            }
-
-            .card > img {
-                object-fit: fill;
-                max-width: 75%;
-                margin: auto;
-                margin-top: 20px;
-                margin-bottom: 25px;
-                border-radius: 300px;
-            }
-
-            .sec-title {
-                margin-top: 40px;
-            }
-
-            .card-container {
-                margin-bottom: 20px;
-            }
-
-            @media (max-width: 992px) {
-                .card > div > p {
-                    font-size: 12px;
-                }
-            }
-            @media (max-width: 576px) {
-                .card-container {
-                    margin-bottom: 20px;
-                    width: 60%;
-                }
-                .card > div > p {
-                    font-size: 12px;
-                }
-            }
-        </style>
+                
+        <!-- JQuery -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script>
+            $(function() {
+            $("#navigation").load("navigation.html");
+            });
+        </script>
     </head>
 
     <body>
+        <!-- Navigation -->
+        <div id="navigation")></div>
         <!-- Team Section -->
         <section id="team" class="team-section content-section text-center">
             <div class="container">
