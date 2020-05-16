@@ -293,11 +293,8 @@ ul.banner-social-buttons {
   }
 }
 
-footer {
-  padding: 50px 0;
-}
-
 footer p {
+  padding-top: 30px;
   font-size: 14px;
   margin: 0;
 }
@@ -587,8 +584,8 @@ font-size: 18px;
   text-align: justify;
   padding-left: 20px;
   width: 79%;
-
 }
+
 .about-text-satellite-icon {
   width: 20%;
   
@@ -606,7 +603,72 @@ font-size: 18px;
   width: 35%;
 }
 
+/*-------------Payload CSS features---------*/
+.main-payload {
+  padding-top: 100px;  
+  width: 950px;
+  margin: auto;
+}
 
+.main-payload-header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid orange;
+  width:90%; 
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.payload-title {
+  font-size: 72px;
+}
+
+/*---------Contact CSS features------------*/
+.main-contact {
+  padding-top: 100px;  
+  width: 950px;
+  margin: auto;
+}
+
+.main-contact-header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid orange;
+  width:90%; 
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.contact-title {
+  font-size: 72px;
+}
+
+.contact-us-button {
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  background: #39BF6E;
+  border-bottom: 2px solid #227041;
+  clear: both;
+  width: 20%;
+  display: inline-block;
+  border-radius: 0px;
+  font-size: 14px;
+  border-bottom: 3px solid transparent;
+  margin-top: 1px;
+  opacity: 0.9;
+}
+
+.footer {
+  background: #e5e5e5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 200px;
+}
+
+footer {
+  box-shadow: 0 50vh 0 50vh #e5e5e5;
+}
 
 
 @media(max-width: 992px){
