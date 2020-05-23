@@ -716,6 +716,11 @@ footer {
 }
 
 /*---------------Gallery CSS stuff-------------*/
+
+.row {
+  margin: 32px !important;
+}
+
 .row > .column {
   padding: 0 8px;
 }
@@ -836,6 +841,7 @@ img.demo {
 
 img.hover-shadow {
   transition: 0.3s;
+  width: 100%;
 }
 
 .hover-shadow:hover {
