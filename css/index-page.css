@@ -121,3 +121,11 @@
   font-weight:bolder;
   color: orange;
 }
+
+@media (min-width: 480px) {
+    .b1[data-state~="shouldUseFlex"][data-state~="left"] .b1link,
+    .b1[data-state~="shouldUseFlex"][data-state~="left"] .b1labelwrapper {
+        justify-content: flex-start;
+        margin-top: 24px;
+    }
+}
