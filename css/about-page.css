@@ -62,4 +62,17 @@
       padding-left: 0px;
       float: none;
     }
+    .about-text-satellite-icon {
+      margin-bottom: 24px;
+    }
+    .main-about-text-2 {
+      text-align: center;
+    }
+    .about-text-body-two {
+      margin: auto;
+      display: block;
+      width: 79%;
+      margin-bottom: 24px;
+
+    }
   }
