@@ -158,7 +158,7 @@ a:focus, a:hover {
 
 .main-about {
   padding-top: 100px;  
-  width: 950px;
+  max-width: 950px;
   margin: auto;
 }
 
@@ -172,7 +172,6 @@ a:focus, a:hover {
 
 .about-title {
   font-size: 72px;
-}
 }
 /*---------Contact CSS features------------*/
 .main-contact {
@@ -224,7 +223,7 @@ footer {
 
 @media (max-width: 480px) {
   .main-about {
-    width: 480px !important;
+    max-width: 480px !important;
   }
-  
 }
+  
