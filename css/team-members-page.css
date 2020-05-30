@@ -1,7 +1,7 @@
 /*--------Team Members CSS features---------*/
 .main-team-members {
   padding-top: 100px;  
-  width: 950px;
+  max-width: 950px;
   margin: auto;
 }
 
@@ -57,9 +57,6 @@
     display: block;
     padding-left: 0px;
     margin: auto;
-  }
-  .about-title {
-    font-size: 44px;
   }
 }
   
