@@ -1,25 +1,21 @@
 /*------------Team css features------------*/
-
 .main-team {
-    margin: auto;
-    max-width: 950px;
-    padding-top: 100px;
+  margin: auto;
+  max-width: 950px;
+  padding-top: 100px;
 }
-
 .main-team-blurb {
-    margin: auto;
-    width: 70%;
-    padding-top: 50px;
-    text-align: justify;
+  margin: auto;
+  width: 70%;
+  padding-top: 50px;
+  text-align: justify;
 }
-
 .main-team-icons {
-    margin: auto;
-    width: 100%;
-    padding-top: 50px;
-    padding-left: 55px;
+  margin: auto;
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 55px;
 }
-
 .team-img {
   display: inline-block;
   border: 3px solid orange;
@@ -27,7 +23,7 @@
   color: #fafafa;
   height: 200px;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   overflow: hidden;
   position: relative;
   width: 200px;
@@ -38,11 +34,11 @@
   width: 100%;
 }
 .team-img__overlay {
-    background-color: rgba(255,165,0,0.6);
-    color: #fafafa;
-    font-size: 24px;
+  background-color: rgba(255,165,0,0.6);
+  color: #fafafa;
+  font-size: 24px;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   bottom: 0;
   left: 0;
   opacity: 0;
@@ -55,51 +51,49 @@
   text-align: center;
 }
 .team-img__overlay-title {
-padding-top: 42px;
-font-size: 24px;
-margin-bottom: 5px;
-font-weight: bold;
-} 
+  padding-top: 42px;
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
 .team-img__overlay-body {
-font-size: 18px;
-} 
+  font-size: 18px;
+}
 .team-img__overlay:hover {
   opacity: 1;
 }
 @media (max-width: 938px) {
   .main-team {
-    max-width: 938px;
-  }
+      max-width: 938px;
+ }
   .team-img {
-    width: 104px;
-    height: 101px;
-  }
+      width: 104px;
+      height: 101px;
+ }
   .main-team-icons {
-    width: 75%;
-    text-align: center;
-    padding-left: 0px;
-  }  
+      width: 75%;
+      text-align: center;
+      padding-left: 0px;
+ }
   .team-img__overlay-title {
-    padding-top: 21px;
-    font-size: 12px;
-  }
-
+      padding-top: 21px;
+      font-size: 12px;
+ }
   .team-img__overlay-body {
-    font-size: 12px;
-  }
+      font-size: 12px;
+ }
 }
 @media (max-width: 625px) {
   .main-team {
-    max-width: 625px;
-  }
+      max-width: 625px;
+ }
   .main-team-icons {
-    max-width: 237.5px;
-    padding-left: 0px;
-  }
+      max-width: 237.5px;
+      padding-left: 0px;
+ }
 }
 @media (max-width: 480px) {
   .main-team {
-    max-width: 480px;
-  }
-
+      max-width: 480px;
+ }
 }
