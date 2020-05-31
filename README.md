@@ -1,12 +1,55 @@
-# [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
+## Made-from-scratch site for the York University CubeSat Team
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Site made to showcase achievements done by our university's CubeSat programme. The site is live on http://www.yorku.ca/cubesat/.
 
-## Preview
 
-[![Grayscale Preview](https://startbootstrap.com/assets/img/templates/grayscale.jpg)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
+### Prerequisites
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-grayscale/)**
+What things you need to run the site locally
+
+- A way to host a local http server of your choice
+  - python2/3, node, ruby, etc.
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+To be able to run any branch that is not `release-branch` (must be hosted locally due to the use of some jQuery): 
+
+```
+# Example works natively on any unix system with python3:
+
+$ python3 -m http.server <port> #1234
+
+# Then navigate to localhost:<port>
+```
+
+To be able to run `release-branch`:
+1. Navigate to https://github.com/duvld/CubeSat-Website/tree/release-branch and clone or [click here](https://github.com/duvld/CubeSat-Website/archive/release-branch.zip) to dircetly download zip
+2. Go to where you've cloned or zipped the project
+3. Open `index.html` in a browser of your choice
+
+
+### Coding style
+
+- 4-space tabs
+- for elements with multiple headers make a new line for each:
+```
+<img class="about-icon"
+    id="WPht7-pihimgimage"
+    style="object-position: 50% 50%; width: 56px; height: 56px; object-fit: cover;"
+    ...
+```
+- Try to keep all styling seperated into a `css` file (except for `index.html`)
+- Keep all `css` file scopes to one `html` page
+
+## Deployment
+Deployment requires access to a York University WiFi, if this is not possible and you are not authorized let one of the authors know.
+
+## Built With
+
+* [Bootstrap](https://getbootstrap.com/) - The web framework used
+* [jQuery](https://jquery.com/) - Gallery functionality
 
 ## Status
 
@@ -16,56 +59,25 @@
 [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale)
 [![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale?type=dev)
 
-## Download and Installation
+## Contributing
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/)
-* Install via npm: `npm i startbootstrap-grayscale`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-grayscale.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-grayscale)
+Please add a description and related issues to each PR and a detailed description of how to reproduce issues for problems
 
-## Usage
+## Versioning
 
-### Basic Usage
+`release-branch` is the only branch with versioning. This is the main one to showcase the latest changes not on the hosted website yet. Our versioning is done by an 8 digit number representing the date i.e., `05312020` to mean 31st of May 2020.
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+## Authors
 
-### Advanced Usage
+* [Anji Tong](https://github.com/duvld)
+* [Alvis Koshy](https://github.com/agkoshy)
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+## License
 
-#### Gulp Tasks
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp sass` compiles SCSS files into CSS
-- `gulp minify-css` minifies the compiled CSS file
-- `gulp minify-js` minifies the themes JS file
-- `gulp copy` copies dependencies from node_modules to the vendor directory
+## Acknowledgments
 
-## Bugs and Issues
+* Hat tip to anyone whose code was used
+* Inspiration: https://www.wix.com/demone2/mobile-marketing/services
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
