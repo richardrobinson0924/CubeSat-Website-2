@@ -78,6 +78,14 @@ font-size: 18px;
     width: 75%;
     text-align: center;
     padding-left: 0px;
+  }  
+  .team-img__overlay-title {
+    padding-top: 21px;
+    font-size: 12px;
+  }
+
+  .team-img__overlay-body {
+    font-size: 12px;
   }
 }
 @media (max-width: 625px) {
