@@ -29,7 +29,7 @@ a {
 }
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #ffde82;
 }
 #mainNav {
   font-family:Arial, sans-serif;
@@ -151,13 +151,11 @@ a:focus, a:hover {
   font-size: 72px;
 }
 .contact-us-button {
-  font-size: 16px;
-  padding: 10px;
+    padding: 10px;
   color: white;
   text-align: center;
   font-weight: 600;
-  background: #39BF6E;
-  border-bottom: 2px solid #227041;
+  background: rgb(35, 61, 130);
   clear: both;
   display: inline-block;
   border-radius: 0px;

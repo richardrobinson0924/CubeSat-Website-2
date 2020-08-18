@@ -46,16 +46,17 @@
     border-radius: 50%;
 }
 .b1link-about {
-    border: solid rgba(229, 125, 34, 1) 4px;
+    border: solid rgb(35, 61, 130) 4px;
 }
 .b1link-payload {
-    border: solid rgba(242, 153, 19, 1) 4px;
+    border: solid rgb(35, 61, 130) 4px;
 }
+
 .b1link-team {
-    border: solid rgba(247, 200, 14, 1) 4px;
+    border: solid rgb(35, 61, 130) 4px;
 }
 .b1link-gallery {
-    border: solid rgba(247, 229, 14, 1) 4px;
+    border: solid rgb(35, 61, 130) 4px;
 }
 .b1[data-disabled="false"] {
     cursor: pointer !important;
@@ -107,7 +108,7 @@
     font-size:24px;
     margin-bottom:20px;
     font-weight:bolder;
-    color: orange;
+    color: rgb(35, 61, 130);
 }
 @media (max-width: 1087px) {
     .main-root {
@@ -142,14 +143,7 @@
         top: 17px 
    }
 }
-@media (max-width: 443px) {
-    .main-hello-icons {
-        width: 90%;
-   }
-    .main-hello-icons .b1{
-        margin: 0;
-   }
-}
+
 @media (min-width: 480px) {
     .b1[data-state~="shouldUseFlex"][data-state~="left"] .b1link, .b1[data-state~="shouldUseFlex"][data-state~="left"] .b1labelwrapper {
         justify-content: flex-start;
